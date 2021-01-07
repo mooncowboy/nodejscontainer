@@ -1,0 +1,32 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: nodejscontainer
+spec:
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        editor: vscode
+        app: nodejscontainer
+    spec:
+      containers:
+      - name: nodejscontainer
+        image: rifielnorth.azurecr.io/rifielnodejscontainer:932
+        ports:
+        - containerPort: 3000
+          protocol: TCP
+      imagePullSecrets:
+        - name:  acr-auth-north
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: nodejscontainer
+spec:
+  selector:
+    app: nodejscontainer
+  type: LoadBalancer
+  ports:
+  - port: 80
+    targetPort: 3000

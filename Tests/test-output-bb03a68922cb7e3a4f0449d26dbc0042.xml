@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2019-05-21T09:58:27" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Assertions" timestamp="2019-05-21T09:58:27" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="test_name" timestamp="2019-05-21T09:58:27" tests="1" failures="1" time="0">
+    <testcase name="Assertions test_name what_it_does" time="0" classname="what_it_does">
+      <failure message="Cannot read property &apos;eq&apos; of undefined" type="TypeError"><![CDATA[TypeError: Cannot read property 'eq' of undefined
+    at Context.<anonymous> (https://rifiel-nodejscontainer.azurewebsites.net/__cypress/tests?p=cypress\integration\test.spec.js-401:11:30)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

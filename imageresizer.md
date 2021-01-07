@@ -1,0 +1,1 @@
+Available in https://github.com/theplastictoy/function-image-upload-resize.git

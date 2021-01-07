@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="2.638" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2019-05-21T10:23:11" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Assertions" timestamp="2019-05-21T10:23:11" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Correct text" timestamp="2019-05-21T10:23:11" tests="1" failures="0" time="1.705">
+    <testcase name="Assertions Correct text Header text should be app name" time="1.705" classname="Header text should be app name">
+    </testcase>
+  </testsuite>
+  <testsuite name="Should always pass" timestamp="2019-05-21T10:23:16" tests="1" failures="0" time="0.933">
+    <testcase name="Assertions Should always pass Should always pass" time="0.933" classname="Should always pass">
+    </testcase>
+  </testsuite>
+</testsuites>
